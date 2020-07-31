@@ -1,0 +1,32 @@
+TCP Client Output: (Run using command python3 rmtcalc.py TCP 127.0.0.1 2000)
+    - Sample Output:
+        Connection Successful!
+
+        Please type an operation: 5 * -5
+        Result = -25.0 (Brought to you by Kevin's server)
+
+        Please type an operation: quit
+        Bye...
+
+TCP Server Output: (Run using command python3 rmtcalc-srv.py TCP 2000)
+    - Sample Output: 
+        The server is listening for a connection...
+        Connection established!
+
+        Client program has closed. Waiting for new client connection...
+
+UDP Client Output: (Run using command python3 rmtcalc.py UDP 127.0.0.1 2000)
+    - Sample Output:
+        Please type an operation: 245.678 * -272.123
+        Received server response from address 127.0.0.1:
+        Result = -66854.634394 (Brought to you by Kevin's server)
+
+        Please type an operation: quit
+        Bye...
+
+UDP Server Output: (Run using command python3 rmtcalc-srv.py UDP 2000)
+    - Sample Output:
+        The server is accepting messages...
+        Received message from client at 127.0.0.1
+
+
